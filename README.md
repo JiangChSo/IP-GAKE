@@ -1,4 +1,7 @@
-# ID-GKA: An Identity-Binding Group Key Agreement Scheme
+# Identity-Binding Password-Based Group Authenticated Key Exchange
+
+This is the implementation of our identity-binding password-based group authenticated key exchange protocol
+
 
 ## Run
 
