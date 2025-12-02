@@ -1,33 +1,32 @@
-对安全等级分别为 80, 112, 128 的协议具体实现。
+Implementation for Security Levels 80, 112, and 128
+80-bit Security Level
 
-### 80-bit 安全等级
+This security level corresponds to the Legacy category in the table. The specific parameters are as follows:
 
-这个安全等级对应表中的 Legacy (遗留) 标准，具体参数如下：
+Symmetric Algorithm: 2TDEA (two-key 3DES), CBC mode
 
-对称加密算法 (Symmetric Algorithm): 2TDEA (双密钥 3DES) CBC Mode
+Elliptic Curve: 160-bit
 
-椭圆曲线 (Elliptic Curve): 160-bit
+Hash Function: SHA-1
 
-哈希函数 (Hash): SHA-1
+Upgrade from 80-bit to 112-bit
 
-### 从 80-bit 提升到 112-bit
+According to the table, the parameters corresponding to the 112-bit security level are:
 
-根据表格，112-bit 安全等级对应的参数如下：
+Symmetric Algorithm: AES-128 (or 3TDEA), CBC mode
 
-对称加密算法 (Symmetric Algorithm): AES-128 (或 3TDEA) CBC Mode
+Elliptic Curve: 224-bit
 
-椭圆曲线 (Elliptic Curve): 224-bit
+Hash Function: SHA-224
 
-哈希函数 (Hash): SHA-224
+We choose AES-128 as the symmetric encryption algorithm.
 
-选择 AES-128 作为对称加密算法
+Upgrade from 112-bit to 128-bit
 
-### 从 112-bit 升级到 128-bit
+The 128-bit security level corresponds to the following parameters:
 
-128-bit 安全等级对应的参数如下：
+Symmetric Algorithm: AES-128, CBC mode
 
-对称加密算法 (Symmetric Algorithm): AES-128 CBC Mode
+Elliptic Curve: 256-bit
 
-椭圆曲线 (Elliptic Curve): 256-bit
-
-哈希函数 (Hash): SHA-256
+Hash Function: SHA-256
