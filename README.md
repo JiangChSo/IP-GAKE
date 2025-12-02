@@ -1,6 +1,6 @@
 # Identity-Binding Password-Based Group Authenticated Key Exchange
 
-This is the implementation of our identity-binding password-based group authenticated key exchange protocol
+This is the implementation of our identity-binding password-based group authenticated key exchange protocol dubbed IP-GAKE
 
 
 ## Run
