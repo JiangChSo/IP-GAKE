@@ -1,3 +1,5 @@
-在 main 函数中加入计时功能，这个版本增加了 chrono 库来进行高精度计时，并在所有计算完成后打印出总耗时。
 
-用于测量不同安全等级下每用户的平均 Setup 和 Key Exchange 时间。
+In the main function, a timing feature has been added. This version incorporates the chrono library for high-precision timing and prints out the total time consumption after all calculations are completed.
+
+It is used to measure the average Setup and Key Exchange time per user under different security levels.
+
